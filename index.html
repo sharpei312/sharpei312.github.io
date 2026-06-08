@@ -3,42 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mim</title>
+    <title>Tommy Rodríguez Zavaleta</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <section id="welcome">
         <header>
-            <h1>
-                <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.99774 0.146548C9.01762 0.0422957 8.90256 -0.0363551 8.8088 0.0173858L0.251555 4.92037C0.0956501 5.00998 0 5.17304 0 5.34926V6.00003V6.65069C0 6.8269 0.0956501 6.99008 0.251555 7.07958L8.8088 11.9827C8.90256 12.0363 9.01762 11.9577 8.99774 11.8534V0.146548Z" fill="currentColor" transform="translate(9 12) rotate(-180)"/>
-                </svg>
-                <span>Ryan Alessandro Lazaro Urtecho</span>
-            </h1>
-
-            <div>
-                <p>Sou estudante da Universidade Nacional de Trujillo e atualmente participo de um programa de intercâmbio na Universidade Federal de Ouro Preto.</p>
-                <p>Clique nos botões para descobrir quem eu admiro em cada uma das minhas paixões.</p>
+            <div class="hero">
+                <img class="profile-photo" src="imagenes/meu.jpeg" alt="Foto de Tommy Rodríguez Zavaleta">
+                <div class="hero-copy">
+                    <h1>Tommy Rodríguez Zavaleta</h1>
+                    <p>Estudante da UNT 2023, atualmente em intercâmbio na UFOP. Nascido em 12/08/2005 e construindo a minha primeira página pessoal.</p>
+                    <p>Bem-vindo! Esta página mostra minhas paixões, minha história acadêmica e o que me motiva a aprender programação.</p>
+                </div>
             </div>
-            <div class="intereses">
-                <h2>Meus interesses</h2>
-                <ul>
-                    <li>
-                        Programar
-                        <img src="imagenes/programar.jpg" alt="Programar">
-                    </li>
-                    <li>
-                        Jogar futebol
-                        <img src="imagenes/futbol.jpg" alt="Futbol">
-                    </li>
-                    <li>
-                        Tocar guitarra
-                        <img src="imagenes/guitarra.jpg" alt="Guitarra">
-                    </li>
-                </ul>
+
+            <div class="about-card">
+                <div><strong>Nome:</strong> Tommy Rodríguez Zavaleta</div>
+                <div><strong>Data de nascimento:</strong> 12/08/2005</div>
+                <div><strong>Universidade:</strong> UNT / UFOP (intercâmbio)</div>
             </div>
         </header>
+
+        <article class="sobre-mim">
+            <h2>Sobre mim</h2>
+            <p>Sou estudante em intercâmbio no Brasil, apaixonado por tecnologia, cultura digital e novas experiências. Estou desenvolvendo meus primeiros projetos em HTML, CSS e JavaScript enquanto estudo na Universidade Federal de Ouro Preto.</p>
+        </article>
+
+        <section class="intereses">
+            <h2>Meus interesses</h2>
+            <ul>
+                <li><span class="icon">💻</span> Programação</li>
+                <li><span class="icon">🎬</span> Filmes</li>
+                <li><span class="icon">🎮</span> Jogos</li>
+            </ul>
+        </section>
 
         <canvas id="canvas-particles"></canvas>
     </section>

@@ -1,4 +1,4 @@
-# Sobre Mim - Página Web Pessoal
+# Página pessoal de Tommy Rodríguez Zavaleta
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5">
@@ -10,53 +10,51 @@
 
 ## Sobre o projeto
 
-Este projeto é uma página web pessoal criada para apresentar um pouco sobre mim, meus interesses e minha experiência acadêmica.
+Esta é a página pessoal de **Tommy Rodríguez Zavaleta**, desenvolvida como trabalho de curso e atualizada para mostrar informações pessoais, interesses e a experiência de intercâmbio.
 
-A página possui um visual moderno com animações no fundo, imagens interativas e efeitos visuais simples para deixar a experiência mais agradável.
-
----
-
-##  Quem sou eu?
-
-Meu nome é **Ryan Alessandro Lazaro Urtecho**.
-
-Sou estudante da **Universidade Nacional de Trujillo** e atualmente participo de um programa de intercâmbio na **Universidade Federal de Ouro Preto**.
+A página foi criada com HTML, CSS e JavaScript, com um design limpo e seções organizadas para apresentar quem eu sou.
 
 ---
 
-##  Meus interesses
+## Quem sou eu?
 
-A página apresenta algumas das minhas paixões:
+Meu nome é **Tommy Rodríguez Zavaleta**.
 
-- 💻 Programar
-- ⚽ Jogar futebol
-- 🎸 Tocar guitarra
-
-Cada interesse possui uma imagem e um pequeno efeito visual ao clicar.
+- Nascido em **12/08/2005**
+- Estudante da **UNT 2023**
+- Atualmente em intercâmbio na **Universidade Federal de Ouro Preto (UFOP)**
 
 ---
 
-## Efeitos da página
+## Meus interesses
 
-O projeto inclui:
+A página inclui minhas principais áreas de interesse:
 
-- Fundo animado com partículas
-- Elementos interativos
-- Design moderno
-- Organização simples e limpa
-- Animações suaves
+- 💻 Programação
+- 🎬 Filmes
+- 🎮 Jogos
+
+---
+
+## O que está no projeto
+
+O projeto apresenta:
+
+- Página pessoal simples e responsiva
+- Foto de perfil local em `imagenes/meu.jpeg`
+- Seção sobre mim
+- Seção de interesses
+- Fundo animado com partículas gerado por JavaScript
+- Estilo moderno aplicado em `style.css`
 
 ---
 
 ## Estrutura do projeto
 
 ```bash
-📁 Web
+📁 MinhaPagP
  ┣ 📁 imagens
- ┃ ┣ 📄 futebol.jpg
- ┃ ┣ 📄 guitarra.jpg
- ┃ ┣ 📄 programar.jpg
- ┃ ┗ 📄 prova.jpeg
+ ┃ ┗ 📄 meu.jpeg
  ┣ 📄 index.html
  ┣ 📄 style.css
  ┣ 📄 script.js
@@ -73,28 +71,29 @@ O projeto inclui:
 
 ---
 
-## Como executar
+## Como visualizar localmente
 
-1. Baixe o projeto
-2. Abra a pasta
-3. Execute o arquivo:
+1. Abra a pasta do projeto
+2. Execute o arquivo `index.html` no navegador
 
-```bash
-index.html
-```
-
-Pronto 
+> Ou use um servidor local para testar:
+>
+> ```bash
+> python -m http.server
+> ```
+>
+> e abra `http://localhost:8000`
 
 ---
 
 ## Objetivo do projeto
 
-O principal objetivo deste projeto foi praticar:
+O principal objetivo deste trabalho foi:
 
-- Estruturação de páginas web
-- Estilização visual
-- Interatividade com JavaScript
-- Organização de arquivos
-- Criação de animações simples
+- Criar uma primeira página pessoal
+- Praticar HTML, CSS e JavaScript
+- Mostrar informações pessoais e acadêmicas
+- Organizar conteúdo em seções claras
+- Construir um visual simples e agradável
 
 --- 
