@@ -190,3 +190,22 @@ items.forEach(item => {
         item.classList.add('active');
     });
 });
+
+const greetingButton = document.querySelector('#greetBtn');
+const themeButton = document.querySelector('#themeBtn');
+const dynamicText = document.querySelector('#dynamicText');
+
+if (greetingButton) {
+  greetingButton.addEventListener('click', () => {
+    const hour = new Date().getHours();
+    const greeting = hour < 12 ? 'Bom dia' : hour < 18 ? 'Boa tarde' : 'Boa noite';
+    dynamicText.textContent = `${greeting}! Sou Tommy, estudante em intercâmbio e curioso por tecnologia.`;
+  });
+}
+
+if (themeButton) {
+  themeButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    themeButton.textContent = document.body.classList.contains('dark') ? 'Modo claro' : 'Modo escuro';
+  });
+}
